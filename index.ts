@@ -33,7 +33,8 @@ export type TicketField =
   }
 
 export interface TicketConfig {
-  id: number;
+  typeId: number;
+  onCreateStatus: number;
   type: TicketType;
   displayName: string;
   fields: TicketField[];
