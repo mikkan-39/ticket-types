@@ -3,7 +3,8 @@ export type TicketType =
   | 'CAR'
   | 'GOODSIN'
   | 'GOODSOUT'
-  | 'CARD';
+  | 'CARD'
+  | 'BLOCK_CARD';
 
 export type TicketComponent =
   'TextInput'
